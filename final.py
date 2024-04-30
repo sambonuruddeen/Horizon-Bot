@@ -70,40 +70,41 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="ZSAMBOT SOLUTIONS 💣", page_icon=":books:")
+    st.set_page_config(page_title="Horizon Bot 💣", page_icon=":robot:")
     st.write(css, unsafe_allow_html=True)
 
     with st.sidebar:
-        st.title("🌠   :violet[_ZSAMBOT STO SOCIOVERSE_]")
+        st.title("🌐  :violet[_Horizon Bot_]")
         add_vertical_space(5)
         # Initialize session state variables if not present
         ss.conversation = ss.get("conversation", None)
         ss.chat_history = ss.get("chat_history", None)
         selected = option_menu(
             menu_title=" Menu",
-            options=["Home 🏠", "Syllabus 📥 ", "Chatbot 📚", "Developers 🛠️"]
+            options=["Home 🏠", "Syllabus 📥 ", "Chatbot 🤖", "Developers 🛠️"]
         )
     
     
     if selected == "Developers 🛠️":
-        st.header("Crafted with ❤️ and passion by [ZSAM](https://www.linkedin.com/in/ashwin-prasanth-7b8066252)")
-        st.write("Software Information:")
-        st.write("Version 2a :blue[22nd November,2023]")
-        st.write("New Release :red[Transcriber support with youtube]")
+        #st.header("Crafted with ❤️ and passion by [ZSAM](https://www.linkedin.com/in/ashwin-prasanth-7b8066252)")
+        st.header("Product of [Horizon IT Services](https://www.horizon.com.ng)")
+        # st.write("Software Information:")
+        # st.write("Version 2a :blue[22nd November,2023]")
+        # st.write("New Release :red[Transcriber support with youtube]")
         st.write(''' Our Features:
     - Multiple Document uploading facility
     - Chat History 
     - Answers within the Syllabus
     ''')
         add_vertical_space(5)
-        st.write("Next Update: Version 2b :blue[2nd February,2024]")
-        st.write(''' Upcoming Features:
-    - Translator
-    ''')
-        st.write(":blue[Staaaaay tuuuned!!!!]")
+    #     st.write("Next Update: Version 2b :blue[2nd February,2024]")
+    #     st.write(''' Upcoming Features:
+    # - Translator
+    # ''')
+    #     st.write(":blue[Staaaaay tuuuned!!!!]")
 
     if selected == "Home 🏠":
-        st.title("Welcome to ZSAM BOT")
+        st.title("Welcome to Horizon BOT")
         st.write(''' I am your Syllabus assistant and I am made using:
     - [Streamlit](https://docs.streamlit.io)
     - [Langchain](https://python.langchain.com/docs/get_started/introduction)
