@@ -1,12 +1,38 @@
-# ZSAMBOT-STO
-Revolutionary AI chat app for education
-Our AI chat app, named Zsambot, is a cutting-edge tool designed to revolutionize education. Powered by advanced AI technology, Zsambot offers instant intelligence and personalized assistance to students navigating course materials. 
+## Running the Streamlit App
 
-We leverage data from various educational sources, including documents, videos, and links, allowing users to upload diverse content effortlessly. Our unique approach enables Zsambot to learn instantly upon syllabus upload, ensuring up-to-date and tailored responses.
+This README outlines the steps to run the Streamlit app using the provided `requirements.txt` file.
 
-We've made additional modifications to optimize data ingestion and prompting flows, enhancing user experience and engagement. 
-Anyone seeking a streamlined and efficient way to navigate course content can benefit from Zsambot, regardless of their educational background or expertise level.
+**Prerequisites:**
 
-Project Working and Demo: https://drive.google.com/drive/folders/1l5oy---XPM7VXZH9G_jwFKD8ZkPmzfBU?usp=share_link
+* Python (version 3.11)
+* [Streamlit library](Streamlit.io)
 
-![image](https://github.com/AshwinPrasanth/ZSAMBOT-STO/assets/118043272/cad67e9f-3d64-4769-ac9c-d93d599f6d61)
+**Instructions:**
+
+1. **Install dependencies:**
+   Open a terminal and navigate to the directory containing the `requirements.txt` file. Run the following command to install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the app:**
+   Locate the main Streamlit app script (usually named `app.py` or similar). In your terminal, navigate to the directory containing the script and run:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+   This will launch the Streamlit app in your default web browser.
+
+**Additional Notes:**
+
+* You can specify a different port to run the app on by adding the `--port` flag followed by the desired port number. For example:
+
+   ```bash
+   streamlit run app.py --port 8501
+   ```
+
+* Refer to the Streamlit documentation for further customization options: Streamlit docs: [https://docs.streamlit.io/en/stable/](https://docs.streamlit.io/en/stable/)
+
+This README provides a basic guide to running the Streamlit app. If you encounter any issues, consult the Streamlit documentation or relevant troubleshooting resources.
