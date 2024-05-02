@@ -146,7 +146,7 @@ def main():
                 ss.conversation = get_conversation_chain(vectorstore)
                 st.write(transcript.text)
 
-    if selected == "Chatbot 📚":
+    if selected == "Chatbot 🤖":
         st.header("🏁 QA Session Begins!! 🏁")
         user_question = st.text_input("User Query")
         if user_question:
