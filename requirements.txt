@@ -25,6 +25,7 @@ jsonpatch @ file:///home/conda/feedstock_root/build_artifacts/jsonpatch_16955362
 jsonpointer @ file:///Users/runner/miniforge3/conda-bld/jsonpointer_1695397382064/work
 langchain-community @ file:///home/conda/feedstock_root/build_artifacts/langchain-community_1714547601953/work
 langchain-core @ file:///home/conda/feedstock_root/build_artifacts/langchain-core_1714531795513/work
+langchainhub==0.1.15
 langsmith @ file:///home/conda/feedstock_root/build_artifacts/langsmith_1714431330020/work
 libmambapy @ file:///Users/runner/miniforge3/conda-bld/mamba-split_1702310516100/work/libmambapy
 mamba @ file:///Users/runner/miniforge3/conda-bld/mamba-split_1702310516100/work/mamba
@@ -51,6 +52,7 @@ SQLAlchemy @ file:///Users/runner/miniforge3/conda-bld/sqlalchemy_1711289838731/
 tenacity @ file:///home/conda/feedstock_root/build_artifacts/tenacity_1692026804430/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1691671248568/work
 truststore @ file:///home/conda/feedstock_root/build_artifacts/truststore_1694154605758/work
+types-requests==2.31.0.20240406
 typing-inspect @ file:///home/conda/feedstock_root/build_artifacts/typing_inspect_1685820062773/work
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1712329955671/work
 urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1699933488691/work

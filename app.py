@@ -1,9 +1,11 @@
 import streamlit as st
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
+from langchain_community.llms import HuggingFaceHub
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
+
 from langchain_community.chat_models.huggingface import ChatHuggingFace
 #from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
