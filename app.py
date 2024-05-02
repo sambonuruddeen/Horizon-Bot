@@ -4,7 +4,8 @@ from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
-from langchain.chat_models import ChatOpenAI
+from langchain.chat_models import ChatHuggingFace
+#from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
@@ -44,7 +45,8 @@ def get_vectorstore(text_chunks):
 
 # Function to create a conversation chain
 def get_conversation_chain(vectorstore):
-    llm = ChatOpenAI()
+    #llm = ChatOpenAI()
+    llm = ChatHuggingFace()
     memory = ConversationBufferMemory(
         memory_key='chat_history',
         return_messages=True)
